@@ -1,0 +1,68 @@
+/* CharityProfile.css */
+
+.charity-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f4f4f9;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+   display:flex;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .charity-profile p span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .charity-profile p.mission {
+    font-style: italic;
+  }
+  
+  .charity-profile p.goals {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .charity-profile p.projects {
+    color: #17a2b8;
+  }
+  
+  .loading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+  

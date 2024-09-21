@@ -1,0 +1,39 @@
+/* CharityDetail.css */
+.d1 {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .d1 h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .d1 p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .btn-donate {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-donate:hover {
+    background-color: #45a049;
+  }
+  
+  

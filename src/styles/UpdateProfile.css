@@ -1,0 +1,30 @@
+.update-profile {
+    padding: 20px;
+  }
+  
+  .update-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-profile input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .update-profile button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .update-profile button:hover {
+    background-color: #45a049;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+  }
+  

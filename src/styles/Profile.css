@@ -1,0 +1,75 @@
+/* Profile Container */
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Profile Heading */
+  .profile-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000dff;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Details */
+  .profile-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Edit Button */
+  .profile-container button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000dff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .profile-container button:hover {
+    background-color: #fff;
+    color: #000dff;
+    border: 2px solid #000dff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  /* Error & Loading Styles */
+  .profile-container div {
+    font-size: 1.2rem;
+    color: #ff4d4d;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 20px;
+      margin: 20px auto;
+    }
+  
+    .profile-container h1 {
+      font-size: 2rem;
+    }
+  
+    .profile-container p {
+      font-size: 1rem;
+    }
+  
+    .profile-container button {
+      padding: 10px 25px;
+      font-size: 1rem;
+    }
+  }
+  

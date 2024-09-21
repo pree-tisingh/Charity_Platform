@@ -1,0 +1,71 @@
+.edit-charity-profile {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .edit-charity-profile h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .edit-charity-profile form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-charity-profile input,
+  .edit-charity-profile textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .edit-charity-profile input:focus,
+  .edit-charity-profile textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .edit-charity-profile button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-charity-profile button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-charity-profile textarea {
+    min-height: 100px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .edit-charity-profile .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  .d2{
+    display: flex;
+    justify-content: center;
+    
+  }
+  

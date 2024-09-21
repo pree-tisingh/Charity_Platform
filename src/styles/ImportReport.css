@@ -1,0 +1,28 @@
+.impact-reports {
+    padding: 20px;
+  }
+  
+  .impact-reports h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .impact-reports ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .impact-reports li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .impact-reports h3 {
+    margin: 0;
+  }
+  
+  .impact-reports p {
+    margin: 5px 0;
+  }
+  

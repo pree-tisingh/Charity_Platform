@@ -1,0 +1,108 @@
+/* Main container for the donation list */
+.donation-list {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading style */
+  .donation-list h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #000dff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  .donation-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual donation items */
+  .donation-list li {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Donation details */
+  .donation-list li p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  /* Download receipt button */
+  .download-receipt-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000dff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .download-receipt-button:hover {
+    background-color: #fff;
+    color: #000dff;
+    border: 2px solid #000dff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add donation button styling */
+  .add-donation-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .add-donation-link {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #28a745;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .add-donation-link:hover {
+    background-color: #fff;
+    color: #28a745;
+    border: 2px solid #28a745;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .donation-list {
+      padding: 20px;
+    }
+  
+    .donation-list h1 {
+      font-size: 1.8rem;
+    }
+  
+    .donation-list li {
+      padding: 15px;
+    }
+  
+    .download-receipt-button,
+    .add-donation-link {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  

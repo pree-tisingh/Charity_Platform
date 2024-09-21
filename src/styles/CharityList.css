@@ -1,0 +1,74 @@
+/* CharityList.css */
+
+.charity-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Added gap between items */
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    margin-top: -3px;
+    font-size: 16px;
+    width:120px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-bar select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .charity-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .charity-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .charity-list li h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .charity-list li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .charity-list li a:hover {
+    text-decoration: underline;
+  }
+  

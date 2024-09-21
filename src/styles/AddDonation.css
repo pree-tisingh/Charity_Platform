@@ -1,0 +1,82 @@
+/* Main container for the Add Donation page */
+.add-donation {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Heading style */
+  .add-donation h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000dff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .add-donation form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input fields */
+  .add-donation input[type="number"],
+  .add-donation input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-donation input[type="number"]:focus,
+  .add-donation input[type="text"]:focus {
+    border-color: #000dff;
+  }
+  
+  /* Submit button styling */
+  .add-donation button {
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-donation button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  .d1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .add-donation {
+      padding: 20px;
+    }
+  
+    .add-donation h1 {
+      font-size: 1.8rem;
+    }
+  
+    .add-donation button {
+      font-size: 1.1rem;
+      padding: 10px;
+    }
+  }
+  

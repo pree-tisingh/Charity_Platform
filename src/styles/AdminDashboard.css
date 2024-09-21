@@ -1,0 +1,92 @@
+/* Admin Dashboard General Styling */
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  .d1{
+     background-color: #f4f4f9;
+     display: flex;
+     flex-direction: column;
+     padding: 30px;
+  }
+  h1, h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* User and Charity List Styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  li button {
+    margin-left: 15px;
+  }
+  
+  /* Buttons Styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    width:150px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button.reject {
+    background-color: #f44336;
+  }
+  
+  button.reject:hover {
+    background-color: #e31b0c;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  

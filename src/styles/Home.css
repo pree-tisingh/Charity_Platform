@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+  }
+  
+  /* Container for the home page */
+  .home-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #c1a5da, #8f93e8);
+    color: #fff;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Heading styles */
+  .home-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  /* Description paragraph */
+  .home-container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  
+  /* Link container */
+  .home-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Individual link styles */
+  .home-link {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000dff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #000dff;
+    color: #fff;
+    border-color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .home-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-container p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+  
+    .home-link {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
