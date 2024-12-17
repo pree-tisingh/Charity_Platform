@@ -17,6 +17,7 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.11.2",
+    "razorpay": "^2.9.5",
     "react-router-dom": "^6.26.2",
     "sequelize": "^6.37.3"
   },
